@@ -1,0 +1,146 @@
+{
+    "pilares": {
+        "mayores": [
+            "10257 75 -10454",
+            "10232 75 -10428",
+            "10253 74 -10439"
+        ],
+        "menores": [
+            "10245 74 -10426",
+            "10223 74 -10440",
+            "10242 74 -10450",
+            "10248 72 -10463",
+            "10240 74 -10437"
+        ],
+        "todos": [
+            "10232 75 -10428",
+            "10257 75 -10454",
+            "10253 74 -10439",
+            "10245 74 -10426",
+            "10223 74 -10440",
+            "10242 74 -10450",
+            "10248 72 -10463",
+            "10240 74 -10437"
+        ]
+    },
+    "sonidos": {
+        "relampago": "/execute positioned as @a run playsound minecraft:entity.lightning_bolt.thunder ambient @a",
+        "zombie": "/execute positioned as @a run playsound minecraft:entity.zombie.ambient ambient @a",
+        "xp_lvlup": "/execute positioned as @a run playsound minecraft:entity.player.levelup ambient @a"
+    },
+    "mobs": {
+        "infectado": "/setblock 10242 53 -10442 minecraft:redstone_block",
+        "infectadov2": "/setblock 10242 53 -10441 minecraft:redstone_block",
+        "enfermero": "/setblock 10242 53 -10440 minecraft:redstone_block"
+    },
+    "bosses":{
+        "lvl5": "/setblock 10242 53 -10439 minecraft:redstone_block",
+        "lvl10": "/setblock 10242 55 -10442 redstone_block"
+    },
+    "spawnPoint": {
+        "comunes": [
+            "10246 69 -10457",
+            "10258 69 -10450",
+            "10254 69 -10430",
+            "10224 69 -10422",
+            "10233 69 -10430",
+            "10226 69 -10433",
+            "10231 69 -10461",
+            "10240 69 -10422",
+            "10246 69 -10435"
+        ],
+        "poco_comunes": [
+            "10229 68 -10451",
+            "10253 69 -10446",
+            "10236 69 -10422",
+            "10242 69 -10442",
+            "10216 68 -10442"
+        ],
+        "especiales": [
+            "10227 78 -10451",
+            "10233 69 -10445"
+        ],
+        "boss-spawn": [
+            "10224 67 -10453"
+        ],
+        "todos": [
+            "10246 69 -10457",
+            "10258 69 -10450",
+            "10254 69 -10430",
+            "10224 69 -10422",
+            "10233 69 -10430",
+            "10226 69 -10433",
+            "10231 69 -10461",
+            "10240 69 -10422",
+            "10246 69 -10435",
+            "10229 68 -10451",
+            "10253 69 -10446",
+            "10236 69 -10422",
+            "10242 69 -10442",
+            "10216 68 -10442",
+            "10227 78 -10451",
+            "10233 69 -10445",
+            "10224 67 -10453"
+        ]
+    },
+    "spawns": {
+        "Punto_Cero": "10239 66 -10394 180 0",
+        "Lobby": "10321 89 -10423"
+    },
+    "items": {
+        "elixir_de_la_vida": "/setblock 10242 53 -10438 minecraft:redstone_block",
+        "arco_clint": "/give @a[team=vivo-evento] bow{display:{Name:'[{%text%:%ARCO DE CLINT%,%italic%:false,%bold%:true}]'},Enchantments:[{id:binding_curse,lvl:1},{id:flame,lvl:1},{id:power,lvl:6},{id:punch,lvl:3}]} 1",
+        "espada_del_gigante": "/give @a[team=vivo-evento] iron_sword{display:{Name:'[{%text%:%ESPADA DEL GIGANTE%,%italic%:false,%bold%:true}]'},Enchantments:[{id:fire_aspect,lvl:1},{id:sharpness,lvl:6}]} 1",
+        "cuchillo_chikito": "/give @a[team=vivo-evento] minecraft:stone_sword{display:{Name:'[{%text%:%Cuchillito chikito%}]'}} 1",
+        "manzana": "/give @a[team=vivo-evento] minecraft:apple 6",
+        "manzana_dorada": "/give @a[team=vivo-evento] minecraft:golden_apple 3",
+        "oscu_plata": "/give @a[team=vivo-evento] minecraft:iron_sword{Enchantments:[{id:%minecraft:sharpness%,lvl:3}],display:{Name:'[{%text%:%El oscu plateado%}]'}} 1",
+        "arco": "/give @a[team=vivo-evento] minecraft:bow{display:{Name:'[{%text%:%Acordeon%}]'},Enchantments:[{id:%minecraft:power%,lvl:2}]} 1",
+        "flechas": "/give @a[team=vivo-evento] minecraft:arrow 10",
+        "escudo":"/give @a[team=vivo-evento] minecraft:shield",
+        "armaduras": {
+            "pechoOro": "/replaceitem entity @a[team=vivo-evento] armor.chest minecraft:golden_chestplate 1",
+            "fullIron": [
+                "/replaceitem entity @a[team=vivo-evento] armor.head minecraft:iron_helmet",
+                "/replaceitem entity @a[team=vivo-evento] armor.chest minecraft:iron_chestplate",
+                "/replaceitem entity @a[team=vivo-evento] armor.legs minecraft:iron_leggings",
+                "/replaceitem entity @a[team=vivo-evento] armor.feet minecraft:iron_boots"
+            ],
+            "pechoOroEnchant": "/replaceitem entity @a[team=vivo-evento] armor.chest minecraft:golden_chestplate{Enchantments:[{id:%minecraft:protection%,lvl:3}]} 1",
+            "pantsDiamante": "/replaceitem entity @a[team=vivo-evento] armor.legs minecraft:diamond_leggings",
+            "fullDiamond": [
+                "/replaceitem entity @a[team=vivo-evento] armor.head minecraft:diamond_helmet",
+                "/replaceitem entity @a[team=vivo-evento] armor.chest minecraft:diamond_chestplate",
+                "/replaceitem entity @a[team=vivo-evento] armor.legs minecraft:diamond_leggings",
+                "/replaceitem entity @a[team=vivo-evento] armor.feet minecraft:diamond_boots"
+            ],
+            "pechoDiamondEnchatP3": "/replaceitem entity @a[team=vivo-evento] armor.chest minecraft:diamond_chestplate{Enchantments:[{id:%minecraft:protection%,lvl:3}]}"
+        }
+    },
+    "commandos": {
+        "iniciales": [
+            "/scoreboard players set ============= tiempo 0",
+            "/scoreboard players set Siguiente_ronda tiempo ",
+            "/scoreboard players set -===============- tiempo 0"
+        ],
+        "expandir_zona": [
+            "/tp 10161 145 -10360",
+            "//pos1",
+            "/tp 10287 40 -10501",
+            "//pos2",
+            "/tp 10329 92 -10423",
+            "/rg redefine evento-zombies"
+        ],
+        "reducir_zona": [
+            "/tp 10275 47 -10387",
+            "//pos1",
+            "/tp 10171 117 -10502",
+            "//pos2",
+            "/tp 10329 92 -10423",
+            "/rg redefine evento-zombies"
+        ]
+    },
+    "efectos": {
+        "seguerai": "/effect give @a minecraft:blindness 100 3"
+    }
+}
